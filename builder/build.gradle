@@ -1,0 +1,15 @@
+group 'io.rama'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.auto.service:auto-service:1.0-rc2'
+}

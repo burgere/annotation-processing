@@ -1,0 +1,18 @@
+group 'io.rama'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'io.rama.vehicle.App'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'io.rama:builder:1.0-SNAPSHOT'
+}
